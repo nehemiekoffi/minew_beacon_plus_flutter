@@ -96,7 +96,7 @@ public class MinewBeaconPlusFlutterPlugin implements FlutterPlugin, MethodCallHa
   /***
    * scanDevicesEventChannelHandler
    */
-  EventChannel.StreamHandler scanDevicesEventChannelHandler = new EventChannel.StreamHandler (){
+  private EventChannel.StreamHandler scanDevicesEventChannelHandler = new EventChannel.StreamHandler (){
     private EventChannel.EventSink eventSink = null;
     private final ArrayList<Map<String,Object>> peripheralsList  = new ArrayList<>();
 
