@@ -1,11 +1,11 @@
 name: minew_beacon_plus_flutter
 description: Minew Beacon Plus flutter package
 version: 0.0.1
-homepage: https://docs.beaconyun.com
+homepage: https://github.com/nehemiekoffi/minew_beacon_plus_flutter
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
