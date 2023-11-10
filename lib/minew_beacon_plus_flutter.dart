@@ -15,6 +15,7 @@ class MinewBeaconPlus {
   }
 
   Stream<List<MinewBeaconDevice>> getDevicesStream() {
-    return MinewBeaconPlusFlutterPlatform.instance.getDevicesStream();
+    return MinewBeaconPlusFlutterPlatform.eventChannelInstance
+        .getDevicesStream();
   }
 }
